@@ -8,4 +8,14 @@ for task in to_do_tasks:
     print(f'the task is to {task}')
     response = llm.invoke(f'the task is to {task}')
     print(response.content)
+
+
+to_do_tasks.append('fix the bike')
+for task in to_do_tasks:
+    print(f'the task is to {task}')
+    response = llm.invoke(f'the task is to {task}')
+    print(response.content)
+
+
+    
 # %%    
