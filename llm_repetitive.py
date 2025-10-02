@@ -1,6 +1,6 @@
 from langchain_openai import ChatOpenAI
 
-name = "Andreas"
+name = "Peter"
 
 prompt = f"""write a poem for {name} birthday, inspired by the name Andreas """
 
