@@ -7,13 +7,21 @@ friends_lists = ["Peter", "John", "Mary", "Jane", "Jim", "Jill", "Jack"]
 print(friends_lists)
 print(friends_lists[2])
 friends_lists.append('Mutinda')
+print(f' the  lists after appending Mutinda is {friends_lists}')
 friends_lists.remove('Jim')
+print(f' the  lists after removing Jim is {friends_lists}')
 friends_lists.sort()
+print(f' the  lists after sorting is {friends_lists}')
 friends_lists.reverse()
+print(f' the  lists after reversing is {friends_lists}')
 friends_lists.pop()
+print(f' the  lists after popping is {friends_lists}')
 friends_lists.insert(2, 'Mutinda')
+print(f' the  lists after inserting Mutinda is {friends_lists}')
 friends_lists.clear()
+print(f' the  lists after clearing is {friends_lists}')
 friends_lists.copy()
+print(f' the  lists after copying is {friends_lists}')
 
 
 
