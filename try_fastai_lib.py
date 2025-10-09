@@ -14,5 +14,7 @@ dls = ImageDataLoaders.from_name_func(
 learn = vision_learner(dls, resnet34, metrics=error_rate)
 learn.fine_tune(1)
 '''
-img = PILImage.create('images/cat.jpg')
-img.to_thumb()
+img = PILImage.create('/home/alma86/Downloads/cats_and_dogs_images/images/Abyssinian_122.jpg')
+img.to_thumb(256,256)
+
+img.show()
